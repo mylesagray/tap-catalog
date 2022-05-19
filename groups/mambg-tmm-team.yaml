@@ -19,8 +19,8 @@ metadata:
 spec:
   profile:
     displayName: Myles Gray
-    email: mylesg@vmware.com
-    picture: https://avatars.dicebear.com/api/avataaars/mylesg@vmware.com.svg?background=%23fff
+    email: mg@mylesgray.com
+    picture: https://avatars.dicebear.com/api/avataaars/mg@mylesgray.com.svg?background=%23fff
   memberOf: [mambg-tmm-team]
 ---
 apiVersion: backstage.io/v1alpha1
