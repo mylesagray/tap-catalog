@@ -8,7 +8,7 @@ metadata:
 spec:
   targets:
     - ./components/backstage.yaml
-    - ./groups/org.yaml
+    - ./groups/vmware-org.yaml
     - ./systems/backstage-system.yaml
     - ./systems/payments-system.yaml
     - ./domains/backstage-domain.yaml
