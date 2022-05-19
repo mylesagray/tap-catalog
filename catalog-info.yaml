@@ -10,7 +10,7 @@ spec:
     - ./components/backstage.yaml
     - ./groups/vmware-org.yaml
     - ./systems/backstage-system.yaml
-    - ./systems/payments-system.yaml
+    - ./systems/payment-system.yaml
     - ./domains/backstage-domain.yaml
     - ./domains/finance-domain.yaml
     - https://github.com/mylesagray/tanzu-java-web-app/blob/master/catalog-info.yaml
