@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: payments
+  description: Payment System
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: mambg-tmm-team
+  domain: finance-domain
