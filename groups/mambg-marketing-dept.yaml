@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mambg-marketing-dept
+  description: MAMBG Marketing
+spec:
+  type: sub-department
+  profile:
+    displayName: MAMBG Marketing
+    email: mapbu-marketing@vmware.com
+    picture: https://avatars.dicebear.com/api/identicon/mapbu-marketing@vmware.com.svg?background=%23fff&margin=25
+  parent: mambg-dept
+  children: [mambg-tmm-team]

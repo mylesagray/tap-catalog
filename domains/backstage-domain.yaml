@@ -4,12 +4,12 @@ metadata:
   name: backstage-domain
   description: Everything related to the Tanzu Application Platform GUI
   links:
-    - url: http://example.com/domain/cloud-apps/
-      title: Domain Readme
-    - url: http://example.com/domains/cloud-apps/dashboard
+    - url: https://tanzu.vmware.com
+      title: VMware Tanzu Site
+    - url: http://tap-gui.tap-next.labs.satm.eng.vmware.com/
       title: Cloud Apps Dashboard
       icon: dashboard
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
-  owner: default-team
+  owner: mambg-tmm-team

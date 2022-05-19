@@ -1,0 +1,35 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mambg-tmm-team
+  description: MAMBG TMM Team
+spec:
+  type: team
+  profile:
+    displayName: MAMBG TMM Team
+    email: mapbu-tmm@vmware.com
+    picture: https://avatars.dicebear.com/api/identicon/mapbu-tmm@vmware.com.svg?background=%23fff&margin=25
+  parent: mambg-org
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: mylesg-user
+spec:
+  profile:
+    displayName: Myles Gray
+    email: mylesg@vmware.com
+    picture: https://avatars.dicebear.com/api/avataaars/mylesg@vmware.com.svg?background=%23fff
+  memberOf: [mambg-tmm-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: wilcockb-user
+spec:
+  profile:
+    displayName: Ben Wilcock
+    email: wilcockb@vmware.com
+    picture: https://avatars.dicebear.com/api/avataaars/wilcockb@vmware.com.svg?background=%23fff
+  memberOf: [mambg-tmm-team]

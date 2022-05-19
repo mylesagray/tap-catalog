@@ -6,5 +6,5 @@ metadata:
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
-  owner: default-team
+  owner: mambg-tmm-team
   domain: backstage-domain

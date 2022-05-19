@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: vmware-org
+  description: VMware organization
+  links:
+    - url: https://www.vmware.com/
+      title: Website
+    - url: https://login.vmware.com/
+      title: Intranet
+spec:
+  type: organization
+  profile:
+    displayName: VMware
+    email: raghu@vmware.com
+    picture: https://avatars.dicebear.com/api/identicon/raghu@vmware.com.svg?background=%23fff&margin=25
+  children: [mambg-org]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: mambg-group
+  description: MAMBG Group
+spec:
+  targets:
+    - ./mambg-dept.yaml
+    - ./mambg-marketing-dept.yaml
+    - ./mambg-tmm-team.yaml
