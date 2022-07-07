@@ -13,5 +13,5 @@ spec:
     - ./systems/payment-system.yaml
     - ./domains/backstage-domain.yaml
     - ./domains/finance-domain.yaml
-    - https://github.com/mylesagray/tanzu-java-web-app/blob/master/catalog-info.yaml
+    - https://github.com/mylesagray/tanzu-java-web-app/blob/main/catalog-info.yaml
     - https://github.com/mylesagray/yelb-catalog/blob/master/catalog-info.yaml
