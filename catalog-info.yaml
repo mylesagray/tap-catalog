@@ -8,6 +8,3 @@ metadata:
 spec:
   targets:
     - ./groups/vmware-org.yaml
-    - ./systems/payment-system.yaml
-    - ./domains/finance-domain.yaml
-    - https://github.com/benwilcock/tanzu-java-web-app/blob/main/catalog/catalog-info.yaml
