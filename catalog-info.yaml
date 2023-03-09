@@ -3,8 +3,6 @@ kind: Location
 metadata:
   name: backstage-catalog-info
   description: MAMBG TMM TAP Catalog
-  annotations:
-    'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
     - ./components/tanzu-java-web-app.yaml
