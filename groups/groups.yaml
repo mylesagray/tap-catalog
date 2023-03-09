@@ -29,14 +29,14 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: shopping-app-team
+  name: tanzu-shop-team
   description: Shopping App Team
 spec:
   type: team
   profile:
     displayName: Shopping App Team
-    email: shopping-app-team@vmware.com
-    picture: https://avatars.dicebear.com/api/identicon/shopping-app-team@vmware.com.svg?background=%23fff&margin=25
+    email: tanzu-shop-team@vmware.com
+    picture: https://avatars.dicebear.com/api/identicon/tanzu-shop-team@vmware.com.svg?background=%23fff&margin=25
   parent: mambg-dept
   children: []
 ---

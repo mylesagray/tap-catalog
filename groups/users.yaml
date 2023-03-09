@@ -30,7 +30,7 @@ spec:
     displayName: Keith Lee
     email: keith@blah.cloud
     picture: https://avatars.githubusercontent.com/u/41379304?v=4
-  memberOf: [shopping-app-team]
+  memberOf: [tanzu-shop-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -41,7 +41,7 @@ spec:
     displayName: Boskey Savla
     email: boskey@blah.cloud
     picture: https://avatars.githubusercontent.com/u/1569878?v=4
-  memberOf: [shopping-app-team]
+  memberOf: [tanzu-shop-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
