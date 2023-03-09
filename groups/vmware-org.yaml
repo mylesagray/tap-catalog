@@ -14,7 +14,7 @@ spec:
     displayName: VMware
     email: raghu@vmware.com
     picture: https://avatars.dicebear.com/api/identicon/raghu@vmware.com.svg?background=%23fff&margin=25
-  children: [mambg-org]
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
@@ -23,7 +23,6 @@ metadata:
   description: MAMBG Group
 spec:
   targets:
-    - ./mambg-dept.yaml
-    - ./mambg-marketing-dept.yaml
+    - ./departments.yaml
     - ./groups.yaml
     - ./users.yaml
