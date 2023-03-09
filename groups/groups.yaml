@@ -39,3 +39,17 @@ spec:
     picture: https://avatars.dicebear.com/api/identicon/polyglot-demo-team@vmware.com.svg?background=%23fff&margin=25
   parent: mambg-dept
   children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mambg-tmm-team
+  description: MAMBG TMM Team
+spec:
+  type: team
+  profile:
+    displayName: MGMBG TMM Team
+    email: mambg-tmm-team@vmware.com
+    picture: https://avatars.dicebear.com/api/identicon/mambg-tmm-team@vmware.com.svg?background=%23fff&margin=25
+  parent: mambg-dept
+  children: []
