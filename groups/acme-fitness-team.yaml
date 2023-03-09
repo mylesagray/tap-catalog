@@ -1,0 +1,35 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: acme-fitness-team
+  description: ACME Fitness Team
+spec:
+  type: team
+  profile:
+    displayName: ACME Fitness Team
+    email: acme-fitness-team@vmware.com
+    picture: https://avatars.dicebear.com/api/identicon/acme-fitness-team@vmware.com.svg?background=%23fff&margin=25
+  parent: mambg-org
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: myles-user
+spec:
+  profile:
+    displayName: Myles Gray
+    email: myles@blah.cloud
+    picture: https://avatars.githubusercontent.com/u/609356?v=4
+  memberOf: [acme-fitness-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: cody-user
+spec:
+  profile:
+    displayName: Cody Dev
+    email: cody@blah.cloud
+    picture: https://api.dicebear.com/5.x/avataaars/svg?seed=cody@blah.cloud
+  memberOf: [acme-fitness-team]
