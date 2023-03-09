@@ -19,7 +19,7 @@ metadata:
 spec:
   profile:
     displayName: Myles Gray
-    email: mg@mylesgray.com
+    email: cody@blah.cloud
     picture: https://avatars.dicebear.com/api/avataaars/mg@mylesgray.com.svg?background=%23fff
   memberOf: [mambg-tmm-team]
 ---
@@ -30,6 +30,6 @@ metadata:
 spec:
   profile:
     displayName: Ben Wilcock
-    email: wilcockb@vmware.com
+    email: ben@blah.cloud
     picture: https://avatars.dicebear.com/api/avataaars/wilcockb@vmware.com.svg?background=%23fff
   memberOf: [mambg-tmm-team]
