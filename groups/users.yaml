@@ -52,7 +52,7 @@ spec:
     displayName: Ben Wilcock
     email: ben@blah.cloud
     picture: https://avatars.githubusercontent.com/u/5331092?v=4
-  memberOf: [polyglot-demo-team]
+  memberOf: [polyglot-demo-team, mambg-tmm-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
