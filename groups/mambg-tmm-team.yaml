@@ -15,18 +15,18 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: mylesg-user
+  name: myles-user
 spec:
   profile:
     displayName: Myles Gray
-    email: cody@blah.cloud
+    email: myles@blah.cloud
     picture: https://avatars.githubusercontent.com/u/609356?v=4
   memberOf: [mambg-tmm-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: wilcockb-user
+  name: ben-user
 spec:
   profile:
     displayName: Ben Wilcock
@@ -37,10 +37,43 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: alana-user
+  name: boskey-user
 spec:
   profile:
     displayName: Boskey Savla
-    email: alana@blah.cloud
+    email: boskey@blah.cloud
     picture: https://avatars.githubusercontent.com/u/1569878?v=4
+  memberOf: [mambg-tmm-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: keith-user
+spec:
+  profile:
+    displayName: Keith Lee
+    email: keith@blah.cloud
+    picture: https://avatars.githubusercontent.com/u/41379304?v=4
+  memberOf: [mambg-tmm-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: alana-user
+spec:
+  profile:
+    displayName: Alana App
+    email: alana@blah.cloud
+    picture: https://api.dicebear.com/5.x/avataaars/svg?seed=alana@blah.cloud
+  memberOf: [mambg-tmm-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: cody-user
+spec:
+  profile:
+    displayName: Cody Dev
+    email: cody@blah.cloud
+    picture: https://api.dicebear.com/5.x/avataaars/svg?seed=cody@blah.cloud
   memberOf: [mambg-tmm-team]
