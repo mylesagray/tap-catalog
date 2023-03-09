@@ -20,7 +20,7 @@ spec:
   profile:
     displayName: Myles Gray
     email: cody@blah.cloud
-    picture: https://avatars.dicebear.com/api/avataaars/cody@blah.cloud.svg?background=%23fff
+    picture: https://avatars.githubusercontent.com/u/609356?v=4
   memberOf: [mambg-tmm-team]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -31,5 +31,16 @@ spec:
   profile:
     displayName: Ben Wilcock
     email: ben@blah.cloud
-    picture: https://avatars.dicebear.com/api/avataaars/ben@blah.cloud.svg?background=%23fff
+    picture: https://avatars.githubusercontent.com/u/5331092?v=4
+  memberOf: [mambg-tmm-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: alana-user
+spec:
+  profile:
+    displayName: Boskey Savla
+    email: alana@blah.cloud
+    picture: https://avatars.githubusercontent.com/u/1569878?v=4
   memberOf: [mambg-tmm-team]
