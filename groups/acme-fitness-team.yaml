@@ -9,7 +9,7 @@ spec:
     displayName: ACME Fitness Team
     email: acme-fitness-team@vmware.com
     picture: https://avatars.dicebear.com/api/identicon/acme-fitness-team@vmware.com.svg?background=%23fff&margin=25
-  parent: mambg-org
+  parent: mambg-dept
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
