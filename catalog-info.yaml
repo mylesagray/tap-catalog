@@ -7,4 +7,5 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
+    - ./components/tanzu-java-web-app.yaml
     - ./groups/vmware-org.yaml
