@@ -7,10 +7,7 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
-    - ./components/backstage.yaml
     - ./groups/vmware-org.yaml
-    - ./systems/backstage-system.yaml
     - ./systems/payment-system.yaml
-    - ./domains/backstage-domain.yaml
     - ./domains/finance-domain.yaml
     - https://github.com/benwilcock/tanzu-java-web-app/blob/main/catalog/catalog-info.yaml
