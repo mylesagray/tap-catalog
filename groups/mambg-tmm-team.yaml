@@ -20,7 +20,7 @@ spec:
   profile:
     displayName: Myles Gray
     email: cody@blah.cloud
-    picture: https://avatars.dicebear.com/api/avataaars/mg@mylesgray.com.svg?background=%23fff
+    picture: https://avatars.dicebear.com/api/avataaars/cody@blah.cloud.svg?background=%23fff
   memberOf: [mambg-tmm-team]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -31,5 +31,5 @@ spec:
   profile:
     displayName: Ben Wilcock
     email: ben@blah.cloud
-    picture: https://avatars.dicebear.com/api/avataaars/wilcockb@vmware.com.svg?background=%23fff
+    picture: https://avatars.dicebear.com/api/avataaars/ben@blah.cloud.svg?background=%23fff
   memberOf: [mambg-tmm-team]
