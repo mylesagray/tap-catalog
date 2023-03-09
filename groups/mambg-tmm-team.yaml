@@ -22,6 +22,29 @@ spec:
     email: ben@blah.cloud
     picture: https://avatars.githubusercontent.com/u/5331092?v=4
   memberOf: [mambg-tmm-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: art-user
+spec:
+  profile:
+    displayName: Art Fewell
+    email: art@blah.cloud
+    picture: https://tanzu.vmware.com/developer/team/art-fewell/images/art-fewell.jpg
+  memberOf: [mambg-tmm-team]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: nick-user
+spec:
+  profile:
+    displayName: Nick Kuhn
+    email: nick@blah.cloud
+    picture: https://tanzu.vmware.com/developer/team/nick-kuhn/images/nick-kuhn.jpg
+  memberOf: [mambg-tmm-team]
 # ---
 # apiVersion: backstage.io/v1alpha1
 # kind: User
