@@ -1,16 +1,47 @@
+---
 apiVersion: backstage.io/v1alpha1
-kind: Group
+kind: User
 metadata:
-  name: mambg-tmm-team
-  description: MAMBG TMM Team
+  name: myles-user
 spec:
-  type: team
   profile:
-    displayName: MAMBG TMM Team
-    email: mapbu-tmm@vmware.com
-    picture: https://avatars.dicebear.com/api/identicon/mapbu-tmm@vmware.com.svg?background=%23fff&margin=25
-  parent: mambg-dept
-  children: []
+    displayName: Myles Gray
+    email: myles@blah.cloud
+    picture: https://avatars.githubusercontent.com/u/609356?v=4
+  memberOf: [acme-fitness-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: cody-user
+spec:
+  profile:
+    displayName: Cody Dev
+    email: cody@blah.cloud
+    picture: https://api.dicebear.com/5.x/avataaars/svg?seed=cody@blah.cloud
+  memberOf: [acme-fitness-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: keith-user
+spec:
+  profile:
+    displayName: Keith Lee
+    email: keith@blah.cloud
+    picture: https://avatars.githubusercontent.com/u/41379304?v=4
+  memberOf: [shopping-app-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: boskey-user
+spec:
+  profile:
+    displayName: Boskey Savla
+    email: boskey@blah.cloud
+    picture: https://avatars.githubusercontent.com/u/1569878?v=4
+  memberOf: [shopping-app-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -21,7 +52,7 @@ spec:
     displayName: Ben Wilcock
     email: ben@blah.cloud
     picture: https://avatars.githubusercontent.com/u/5331092?v=4
-  memberOf: [mambg-tmm-team]
+  memberOf: [mambg-tmm-team, polyglot-demo-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -33,7 +64,6 @@ spec:
     email: art@blah.cloud
     picture: https://tanzu.vmware.com/developer/team/art-fewell/images/art-fewell.jpg
   memberOf: [mambg-tmm-team]
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User

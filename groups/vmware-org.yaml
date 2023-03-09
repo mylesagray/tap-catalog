@@ -25,4 +25,5 @@ spec:
   targets:
     - ./mambg-dept.yaml
     - ./mambg-marketing-dept.yaml
-    - ./mambg-tmm-team.yaml
+    - ./groups.yaml
+    - ./users.yaml

@@ -10,4 +10,4 @@ spec:
     email: mapbu-marketing@vmware.com
     picture: https://avatars.dicebear.com/api/identicon/mapbu-marketing@vmware.com.svg?background=%23fff&margin=25
   parent: mambg-dept
-  children: [mambg-tmm-team, acme-fitness-team, shopping-app-team]
+  children: [mambg-tmm-team, acme-fitness-team, shopping-app-team, polyglot-demo-team]

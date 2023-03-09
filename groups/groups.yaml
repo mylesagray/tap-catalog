@@ -1,0 +1,55 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: acme-fitness-team
+  description: ACME Fitness Team
+spec:
+  type: team
+  profile:
+    displayName: ACME Fitness Team
+    email: acme-fitness-team@vmware.com
+    picture: https://avatars.dicebear.com/api/identicon/acme-fitness-team@vmware.com.svg?background=%23fff&margin=25
+  parent: mambg-dept
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mambg-tmm-team
+  description: MAMBG TMM Team
+spec:
+  type: team
+  profile:
+    displayName: MAMBG TMM Team
+    email: mapbu-tmm@vmware.com
+    picture: https://avatars.dicebear.com/api/identicon/mapbu-tmm@vmware.com.svg?background=%23fff&margin=25
+  parent: mambg-dept
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: shopping-app-team
+  description: Shopping App Team
+spec:
+  type: team
+  profile:
+    displayName: Shopping App Team
+    email: shopping-app-team@vmware.com
+    picture: https://avatars.dicebear.com/api/identicon/shopping-app-team@vmware.com.svg?background=%23fff&margin=25
+  parent: mambg-dept
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: polyglot-demo-team
+  description: Polyglot Demo Team
+spec:
+  type: team
+  profile:
+    displayName: Polyglot Demo Team
+    email: polyglot-demo-team@vmware.com
+    picture: https://avatars.dicebear.com/api/identicon/polyglot-demo-team@vmware.com.svg?background=%23fff&margin=25
+  parent: mambg-dept
+  children: []
