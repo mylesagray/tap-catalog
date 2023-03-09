@@ -52,7 +52,7 @@ spec:
     displayName: Ben Wilcock
     email: ben@blah.cloud
     picture: https://avatars.githubusercontent.com/u/5331092?v=4
-  memberOf: [mambg-tmm-team, polyglot-demo-team]
+  memberOf: [polyglot-demo-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -63,7 +63,7 @@ spec:
     displayName: Art Fewell
     email: art@blah.cloud
     picture: https://tanzu.vmware.com/developer/team/art-fewell/images/art-fewell.jpg
-  memberOf: [mambg-tmm-team]
+  memberOf: [polyglot-demo-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -74,7 +74,7 @@ spec:
     displayName: Nick Kuhn
     email: nick@blah.cloud
     picture: https://tanzu.vmware.com/developer/team/nick-kuhn/images/nick-kuhn.jpg
-  memberOf: [mambg-tmm-team]
+  memberOf: [polyglot-demo-team]
 # ---
 # apiVersion: backstage.io/v1alpha1
 # kind: User
@@ -85,4 +85,4 @@ spec:
 #     displayName: Alana App
 #     email: alana@blah.cloud
 #     picture: https://api.dicebear.com/5.x/avataaars/svg?seed=alana@blah.cloud
-#   memberOf: [mambg-tmm-team]
+#   memberOf: [polyglot-demo-team]

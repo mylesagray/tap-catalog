@@ -15,20 +15,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: mambg-tmm-team
-  description: MAMBG TMM Team
-spec:
-  type: team
-  profile:
-    displayName: MAMBG TMM Team
-    email: mapbu-tmm@vmware.com
-    picture: https://avatars.dicebear.com/api/identicon/mapbu-tmm@vmware.com.svg?background=%23fff&margin=25
-  parent: mambg-dept
-  children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
   name: tanzu-shop-team
   description: Shopping App Team
 spec:
