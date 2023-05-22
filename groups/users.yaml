@@ -6,7 +6,7 @@ metadata:
 spec:
   profile:
     displayName: Myles Gray
-    email: myles@blah.cloud
+    email: myles@example.com
     picture: https://avatars.githubusercontent.com/u/609356?v=4
   memberOf: [acme-fitness-team]
 ---
@@ -17,7 +17,7 @@ metadata:
 spec:
   profile:
     displayName: Cody Dev
-    email: cody@blah.cloud
+    email: cody@example.com
     picture: https://api.dicebear.com/5.x/avataaars/svg?seed=cody@blah.cloud
   memberOf: [acme-fitness-team]
 ---
@@ -28,7 +28,7 @@ metadata:
 spec:
   profile:
     displayName: Keith Lee
-    email: keith@blah.cloud
+    email: keith@example.com
     picture: https://avatars.githubusercontent.com/u/41379304?v=4
   memberOf: [tanzu-shop-team]
 ---
@@ -39,7 +39,7 @@ metadata:
 spec:
   profile:
     displayName: Boskey Savla
-    email: boskey@blah.cloud
+    email: boskey@example.com
     picture: https://avatars.githubusercontent.com/u/1569878?v=4
   memberOf: [tanzu-shop-team]
 ---
@@ -50,7 +50,7 @@ metadata:
 spec:
   profile:
     displayName: Ben Wilcock
-    email: ben@blah.cloud
+    email: ben@example.com
     picture: https://avatars.githubusercontent.com/u/5331092?v=4
   memberOf: [polyglot-demo-team, mambg-tmm-team]
 ---
@@ -61,7 +61,7 @@ metadata:
 spec:
   profile:
     displayName: Art Fewell
-    email: art@blah.cloud
+    email: art@example.com
     picture: https://tanzu.vmware.com/developer/team/art-fewell/images/art-fewell.jpg
   memberOf: [polyglot-demo-team]
 ---
@@ -72,7 +72,7 @@ metadata:
 spec:
   profile:
     displayName: Nick Kuhn
-    email: nick@blah.cloud
+    email: nick@example.com
     picture: https://tanzu.vmware.com/developer/team/nick-kuhn/images/nick-kuhn.jpg
   memberOf: [polyglot-demo-team]
 # ---
